@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.2"
 
-server '13.210.246.6', port: 22, roles: [:web, :app, :db], primary: true
+server '3.106.59.201', port: 22, roles: [:web, :app, :db], primary: true
 
 set :application, "rails_learning"
 
